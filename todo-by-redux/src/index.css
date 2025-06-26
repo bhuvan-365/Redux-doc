@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #DCEAB2;
+}
+.container{
+    background-color: #B3D6C6;
+}
+.submit{
+    background-color: #75B9BE;
+}
+.list{
+    background-color: #62B6CB;
+}
+.delete{
+    background-color: #F7B7A3;
+}
