@@ -1,0 +1,11 @@
+Redux is a predictable state management library commonly used with React applications. It helps manage the state of your app in a single, centralized store, making it easier to debug and maintain. Redux uses actions to describe state changes and reducers to handle those changes, ensuring that the state updates in a predictable way. By using Redux, you can share state across components, implement features like undo/redo, and keep your application logic organized
+
+
+(Redux Toolkit)
+
+
+>Store - is what holds all the data your application uses.
+>Reducer - is what manipulates that data when it receives an action.
+>Action - is what tells reducer to manipulate the store data, it carries the name and (optionally) some data.
+
+=>Reducer is usually in the format of a switch statement that switches between all possible Actions (cases) and then manipulates the Store data based on the action. When reducer data changes within redux, the properties in your components are changed and then the re-rendering occurs.
